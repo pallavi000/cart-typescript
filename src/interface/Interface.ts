@@ -12,7 +12,13 @@ export interface ItemProp{
     name:string,
 
 }
-export interface CartIemProps{
+export interface CartITem{
     id:number,
-    quantity?:number
+    quantity:number,
+    name?:string
 }
+
+
+
+    
+

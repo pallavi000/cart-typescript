@@ -14,10 +14,11 @@ function App() {
       <CartContext>
       <Navbar/>
       <Routes>
+
       <Route exact path="/cart" element={<Cart/>}></Route>
 
-        <Route exact path="/" element={<Home/>}>
-          
+      <Route exact path="/home" element={<Home/>}>
+
         </Route>
       </Routes>
       </CartContext>
